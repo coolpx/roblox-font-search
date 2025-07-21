@@ -82,7 +82,9 @@ const FONT_CATEGORIES: Record<string, Font['category']> = {
     'Noto Sans HK': 'sans-serif',
     'PT Sans': 'sans-serif',
     'Builder Sans': 'sans-serif',
-    Inter: 'sans-serif'
+    Inter: 'sans-serif',
+    'Unica One': 'special',
+    Monofett: 'special'
 };
 
 export default defineEventHandler(async event => {
